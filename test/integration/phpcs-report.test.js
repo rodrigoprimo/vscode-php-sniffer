@@ -29,7 +29,7 @@ suite('Report Utilities', function () {
 
     test('A report is flattened correctly', function () {
       // Report taken from PHP_CodeSniffer Github wiki Reports page.
-      // https://github.com/squizlabs/PHP_CodeSniffer/wiki/Reporting#printing-a-json-report
+      // https://github.com/PHPCSStandards/PHP_CodeSniffer/wiki/Reporting#printing-a-json-report
       const messages = [
         {
           message: 'Missing file doc comment',

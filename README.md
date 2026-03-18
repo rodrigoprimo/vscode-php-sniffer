@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/wongjn/vscode-php-sniffer.svg?branch=master)](https://travis-ci.com/wongjn/vscode-php-sniffer)
 [![PHP Sniffer on the Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/wongjn.php-sniffer.svg)](https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer)
 
-Uses [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) to format
+Uses [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) to format
 and lint (mainly) PHP code.
 
 ## Features
@@ -25,7 +25,7 @@ and lint (mainly) PHP code.
 ## Requirements
 
 - [PHP](https://php.net)
-- [PHP_Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+- [PHP_Codesniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer)
 
 ## Extension Settings
 
@@ -78,7 +78,7 @@ only if `phpSniffer.executablesFolder` is empty).
 * `phpSniffer.standard`: The standards to check against. This is passed to the
 `phpcbf` and `phpcs` executables as the value for `--standard`. Can be absolute,
 or relative to the workspace folder. If not set,
-[PHP_CodeSniffer will attempt to find a file to use](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#using-a-default-configuration-file),
+[PHP_CodeSniffer will attempt to find a file to use](https://github.com/PHPCSStandards/PHP_CodeSniffer/wiki/Advanced-Usage#using-a-default-configuration-file),
 at the root of the currently open file's workspace folder in the following order:
   1. `.phpcs.xml`
   2. `phpcs.xml`
